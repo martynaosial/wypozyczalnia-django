@@ -1,1 +1,14 @@
-virtual_env
+# środowisko wirtualne
+virtual_env/
+venv/
+.venv/
+
+# pliki tymczasowe Pythona
+__pycache__/
+*.pyc
+
+# lokalna baza danych
+db.sqlite3
+
+# zmienne środowiskowe
+.env
